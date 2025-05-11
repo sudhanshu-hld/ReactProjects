@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply box-border;
+}
+
+body{
+    @apply bg-[#282D35]
+    m-0
+    font-inter;
+}
+
+.header{
+    @apply bg-[#21222A]
+    w-full h-[91px] lg-h:h-[121px] xl-h:h-[250px]
+    pl-[26px] lg-h:pl-[56px] xl-h:pl-[100px]
+    flex items-center;
+}
+
+.header .header-img{
+    @apply w-[28.93px] h-[28.93px] lg-h:w-[58.93px] lg-h:h-[58.93px] xl-h:w-[150.93px] xl-h:h-[150.93px];
+}
+
+.header .heading{
+    @apply text-[#61DAFB]
+    font-[700]
+    ml-[6.68px] pb-[6.68px] lg-h:ml-[9.68px] lg-h:pb-[12.68px] xl-h:ml-[25.68px] xl-h:pb-[30px]
+    text-[1.4rem] lg-h:text-[2.4rem] xl-h:text-[4rem];
+}
+
+.content{
+    @apply text-white
+    bg-react-icon-half bg-no-repeat bg-right
+    lg-h:bg-react-icon-half-1 lg-h:bg-no-repeat lg-h:bg-right lg-h:bg-half-icon 
+    xl-h:bg-react-icon-half-2 xl-h:bg-no-repeat xl-h:bg-right xl-h:bg-half-icon-1;
+}
+
+.content .content-head{
+    @apply font-[700]
+    text-[2.4rem] lg-h:text-[3rem] xl-h:text-[5rem]
+    ml-[27px] mt-[57px] lg-h:ml-[35px] lg-h:mt-[65px] xl-h:ml-[70px] xl-h:mt-[100px] ;
+}
+
+.content .content-list{
+    @apply font-[400]
+    text-[16px] lg-h:text-[20px] xl-h:text-[40px]
+    ml-[74px] mt-[46px] lg-h:ml-[80px] lg-h:mt-[50px] xl-h:ml-[150px] xl-h:mt-[100px]
+    list-disc;
+}
+
+.content-list li{
+    @apply py-[10px] lg-h:py-[15px] xl-h:py-[30px];
+}
+
+.content-list li::marker{
+    @apply text-[#61DAFB] text-[1.5rem] lg-h:text-[2rem] xl-h:text-[3.5rem];
+}
