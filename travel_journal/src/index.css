@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply box-border;
+}
+
+body, html{
+    @apply p-0 m-0
+    font-inter;
+}
+
+.journal-header{
+    @apply flex justify-center items-center
+    w-full h-[55px]
+    bg-[#F55A5A] text-[white]
+    pt-[16px] pb-[15px];
+}
+
+.journal-img{
+    @apply w-[24px] h-[24px];
+}
+
+.journal-heading{
+    @apply pl-[7px]
+    font-[500] text-[14.46px];
+}
+
+.content{
+    @apply flex items-center
+    ml-[40px] mr-[40px] mt-[45px] mb-[18px];
+}
+
+.place-img-container{
+    @apply w-[125px] h-[168px]
+    rounded-[5px]
+    border;
+}
+
+.place-img{
+    @apply w-full h-full
+    object-fill;
+}
+
+.about-content{
+    @apply ml-[19px];
+}
+
+.marker{
+    @apply w-[7px] h-[9.55px]
+    inline;
+}
+
+.place-name{
+    @apply ml-[4px]
+    font-[400] text-[#2B283A] text-[10.24px]
+    tracking-px-1;
+}
+
+.place-link{
+    @apply ml-[12px]
+    text-[#918E9B] text-[10.24px]
+    underline;
+}
+
+.content-head{
+    @apply mt-[4px]
+    font-[700] text-[#2B283A] text-[25px];
+}
+
+.content-date{
+    @apply mt-[17px]
+    font-[700] text-[#2B283A] text-[10.24px]; 
+}
+
+.content-description{
+    @apply mt-[9px]
+    font-[400] text-[#2B283A] text-[10.24px]
+    line-clamp-3;
+}
+
+.line{
+    @apply ml-[40px] mr-[32px];
+}

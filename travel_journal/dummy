@@ -1,0 +1,13 @@
+<div className="content">
+    <div className="place-img-container">
+        <img src="/src/assets/images/mount_fuji.png" alt="globe" className="place-img"/>
+    </div>
+    <div className="about-content">
+        <img src="/src/assets/images/marker.png" alt="marker" className="marker" />
+        <span className="place-name">JAPAN</span>
+        <a href="https://www.google.co.in/maps/place/Mount+Fuji/@35.3605608,138.7271143,20.5z/data=!4m7!3m6!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!4b1!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D" target="_blank" className="place-link">View on Google Maps</a>
+        <h1 className="content-head">Mount Fuji</h1>
+        <p className="content-date">12 Jan, 2023 - 24 Jan, 2023</p>
+        <p className="content-description">Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.</p>
+    </div>
+</div>
