@@ -1,12 +1,5 @@
-# React + Vite
+# My travel journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a react project that uses props to create a dynamic website called my travel journal
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Screenshot (9)](https://github.com/user-attachments/assets/cd00c406-7d53-4c86-8b1f-80e1a7c08e8c)
